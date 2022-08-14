@@ -1,0 +1,27 @@
+.cardWrapper{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(5, auto);
+    text-align: center;
+    width: 25em;
+}
+
+.tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+    min-height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+
+    border: 4px saddlebrown dashed;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.tile--set {
+    background: khaki;
+}
